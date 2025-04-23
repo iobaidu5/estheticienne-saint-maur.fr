@@ -2562,10 +2562,10 @@ section.bg-paralax2:before {
   text-transform: uppercase;
   color         : #fff;
   position      : absolute;
-  top           : -17%;
+  top           : -16%;
   left          : 10%;
   font-weight   : 800;
-  font-family   : Montserrat, sans-serif
+  font-family   : "Montserrat", sans-serif
 }
 
 @media only screen and (min-width:768px) {

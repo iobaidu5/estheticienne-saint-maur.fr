@@ -100,20 +100,18 @@ $('a[href^="#backTotop"]').click(function () {
 //   time: 2000
 // });
 
-window.onscroll = function () {
-  myFunction()
+window.onload = function () {
+  var header = document.getElementById("menu2");
+  var sticky = header.offsetTop;
+
+  window.onscroll = function () {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("fixmenu");
+    } else {
+      header.classList.remove("fixmenu");
+    }
+  };
 };
-var header = document.getElementById("menu2");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("fixmenu");
-
-  } else {
-    header.classList.remove("fixmenu");
-  }
-}
 
 $('.carousel3').owlCarousel({
   loop: true,

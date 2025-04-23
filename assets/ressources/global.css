@@ -3743,6 +3743,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
+@media (max-width:380px) {
+  .contact{
+    margin: 0 !important;
+  }
+
+  .contact2{
+    margin: 10px 0 !important;
+  }
+}
+
 .navbar-nav>li>.dropdown-menu {
     margin-top: 0;
     border-top-right-radius: 0;
