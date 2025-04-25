@@ -3737,15 +3737,22 @@ textarea.input-group-sm>.input-group-btn>.btn {
     nav ul{
       background: #fff !important;
     }
+
+    .contact2{
+      margin: 10px 0 !important;
+    }
+}
+
+@media (max-width:665px) {
+
+  .contact2{
+    margin: px 0 !important;
+  }
 }
 
 @media (max-width:380px) {
   .contact{
     margin: 0 !important;
-  }
-
-  .contact2{
-    margin: 10px 0 !important;
   }
 }
 
